@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: futura;
+}
+
+.App{
+   /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=d822b6&c2=f3ed98&gt=l&gd=dtl
+*/
+    height: 100vh;
+    width: 100%;
+    background: #D822B6;
+    background: linear-gradient(135deg, #D822B6, #F3ED98);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    padding: 10px;
+    height: 400px;
+    width: 300px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+h2{
+    margin-bottom: 10px;
+}
+
+.input-field{
+    padding: 2px;
+    margin: 5px;
+}
+
+.subdiv{
+    margin: 15px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.btn{
+    padding: 3px 25px;
+    background-color: #3333;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.center{
+    margin-top: 20px;
+}
